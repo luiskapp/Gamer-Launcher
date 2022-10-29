@@ -1,6 +1,7 @@
 import styled, { css } from "styled-components";
 import { Theme } from "assets/types/styled-components";
 
+
 const activeBox = (theme: Theme) => css`
 	content: "";
 	position: absolute;
@@ -25,7 +26,7 @@ export const Menu = styled.menu`
 		align-items: center;
 		justify-content: space-between;
 		background: ${theme.colors.baseBg2};
-		border-radius: 0 16px 16px 0;
+		border-radius: 16px;
 		box-sizing: border-box;
 		nav {
 			display: flex;
