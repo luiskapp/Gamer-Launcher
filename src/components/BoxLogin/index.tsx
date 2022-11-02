@@ -18,7 +18,7 @@ const BoxLogin = () => {
                 <input type="password" placeholder="Senha" />
                 <ButtonLarge value="Entrar" type="button" />
             </S.BoxLoginForm>
-            <ButtonRegister href='/register'>CADASTRAR</ButtonRegister>
+            <ButtonRegister href='/users'>CADASTRE-SE</ButtonRegister>
         </S.BoxLogin>
     );
 };

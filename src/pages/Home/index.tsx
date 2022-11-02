@@ -27,7 +27,23 @@ const Home = () => {
       </header>
       <div>
         <S.HomeProductTitle>
+          <b>Favoritos</b>
+        </S.HomeProductTitle>
+        <S.HomeProductList>
+          <p>Lista de produtos aqui</p>
+        </S.HomeProductList>
+      </div>
+      <div>
+        <S.HomeProductTitle>
           <b>Games</b>
+        </S.HomeProductTitle>
+        <S.HomeProductList>
+          <p>Lista de produtos aqui</p>
+        </S.HomeProductList>
+      </div>
+      <div>
+        <S.HomeProductTitle>
+          <b>Gênero</b>
         </S.HomeProductTitle>
         <S.HomeProductList>
           <p>Lista de produtos aqui</p>
